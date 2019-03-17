@@ -3,6 +3,7 @@
 ## Execute Command
 
 ``` bash
+chmod +x setup-docker-ubuntu1804.sh 
 ./setup-docker-ubuntu1804.sh
 ```
 
