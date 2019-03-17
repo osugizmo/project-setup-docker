@@ -6,7 +6,8 @@
 git clone https://github.com/osugizmo/project-setup-docker.git
 cd project-setup-docker
 chmod +x setup-docker-ubuntu1804.sh 
-#[ATTENTION] apt-get upgradeが実行されるので不要であればコメント化して下さい
+#[ATTENTION] apt-get upgradeが実行されるので不要であれば
+#「/setup-docker-ubuntu1804.sh」のupgrade行をコメント化して下さい
 ./setup-docker-ubuntu1804.sh
 ```
 
