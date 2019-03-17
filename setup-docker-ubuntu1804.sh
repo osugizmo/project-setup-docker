@@ -2,8 +2,8 @@
 cat /etc/lsb-release
 
 #Updates
-#sudo apt -y update
-#sudo apt -y upgrade
+sudo apt-get -y update
+DEBIAN_FRONTEND=noninteractive sudo apt-get -yq upgrade
 
 #Docker
 sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
